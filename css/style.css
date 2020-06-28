@@ -1,0 +1,171 @@
+/*--Author: Magenta Creatives
+Author URL: http://magentacreative.ga
+Build Date :
+--*/
+body{
+	padding:0;
+	margin:0;
+  background-image: linear-gradient(to bottom right,#ffffff, #ffffff);
+  color: #000;
+}
+/* :: Main Contents */
+/*-- banner --*/
+section.banner-w3ls,#block {
+    position: relative;
+    height: 800px;
+	width:100%;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 40%;
+	display: table;
+}
+.bpla-but {
+	position: relative;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: transparent;
+	cursor: pointer;
+    font-size:x-large;
+    padding:1%;
+	text-decoration: none;
+	text-decoration-color: none;
+	border:1px solid white;
+	color:white;
+  }
+  .bpla-but:hover{
+	 background-color: white;
+  }
+/*-- product --*/
+section.product-wthree {
+
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom right, #000000, #2f3542);
+
+}
+section.product-wtwo {
+
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom right, #ffffff, #f7f1e3);
+
+}
+.product-wthree-img:hover {
+    transform: scale(1.02);
+  }
+  .product-wtwo-img:hover {
+    transform: scale(1.02);
+  }
+/*-- /about --*/
+#lightninBox {
+	padding:7px;
+}
+/*-- divider --*/
+section.divider-wthree {
+    padding:100px 0;
+    background-image: linear-gradient(to bottom right, #000000, #2f3542);
+	background:url(../images/bg_6.jpg) no-repeat;
+	background-attachment:fixed;
+	filter: grayscale(50%);
+	background-position:center;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-ms-background-size:100% 100%;
+}
+
+/*-- /divider --*/
+
+/* Product amout detail */
+.title{
+    color: #1e272e;
+    text-align:center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+    font-weight: 700;
+}
+
+.title-sub-heading{
+    font-size:2.65rem;
+    margin-top:.6rem;
+    letter-spacing: .008rem;
+    font-weight: 300;
+}
+.title-price{
+    font-size: 1.7rem;
+    color:#888;
+    margin-top:.68rem;
+}
+.cta{
+    text-align:center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    font-size: large;
+    padding: 1%;
+    display: inline-block;
+    border-radius: large;
+    background: #111;
+    color: #fff;
+}
+.cta-link:nth-child(2){
+    margin-left:2.6rem;
+}
+.cta-link:hover{
+    background: #485460;
+    color: #fff;
+}
+/* product */
+/* :: 1.0 Preloader CSS */
+#preloader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(-90deg, #0e0e0e, #0e0e0e);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+    justify-content: center; } 
+#preloader-thumbnail{
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #75be59;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
